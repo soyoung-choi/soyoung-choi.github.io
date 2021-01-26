@@ -2,7 +2,7 @@
 @import "ext/normalize";
 @import "syntax";
 
-$linkColor: #0a59b0;
+$linkColor: #0014ff;
 $mobileW: 768px;
 $smallMobileW: 480px;
 $bigScreenW: 1600px;
@@ -103,9 +103,9 @@ main {
     }
     .tagline {
       text-align: center;
-      font-size: 22px;
+      font-size: 15px;
       margin-top: 0px;
-      color: #aaa;
+      color: $linkColor;
       white-space: pre-wrap;
       line-height: normal;
     }
