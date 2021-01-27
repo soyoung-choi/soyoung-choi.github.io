@@ -50,9 +50,11 @@
 		}
 	}
 
-	a {
+	a,
+	.tagline {
 		color: $dark_link_color;
 	}
+	
 	#title a {
 		color: #fff;
 		&:hover {
