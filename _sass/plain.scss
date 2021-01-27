@@ -222,9 +222,9 @@ main {
 }
 
 .post-title {
-  line-height: 1.2em;
-  font-size: 28px;
-  margin-bottom: 10px;
+  line-height: 1.5em;
+  font-size: 26px;
+  margin-bottom: 5px;
 }
 .posts,
 .post-container {
@@ -241,6 +241,13 @@ main {
 }
 .post-container {
   padding-left: 30px;
+}
+
+.posts {
+  li {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+  }
 }
 .post {
   font-family: 'Spoqa Han Sans', sans-serif;
