@@ -5,6 +5,8 @@ date: "2021-02-13"
 categories: jQuery
 ---
 
+자주 쓰이는 jQuery 입력 양식 이벤트와 단순 변환 프로그램 사용 시 문제가 될 수 있는 화살표 함수에 대해 알아보자.
+
 &nbsp;
 
 이벤트 이름 | 설명
@@ -108,7 +110,7 @@ reset | reset 버튼 클릭시 발생
 </script>
 ```
 
-**jQuery 이벤트 핸들러로 화살표 함수를 사용하면 this 키워드로 자기 자신을 나타낼 수 없음**
+jQuery 이벤트 핸들러로 화살표 함수를 사용하면 this 키워드로 자기 자신을 나타낼 수 없음
 
 ```html
 <body>
@@ -124,4 +126,4 @@ reset | reset 버튼 클릭시 발생
 </script>
 ```
 
-**화살표 함수를 사용할 때는 event.currentTarget 속성을 사용**
+주의) 화살표 함수를 사용할 때는 this 대신에 event.currentTarget 속성을 사용해야 작동됨
